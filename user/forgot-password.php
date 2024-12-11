@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'system.vacation.rental@gmail.com';
-                $mail->Password = 'kylzdtyyggvrfmdt'; // Replace with app-specific password
+                $mail->Password = ''; // Replace with app-specific password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
 

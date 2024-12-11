@@ -65,7 +65,7 @@ function sendDeletionConfirmation($email) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'system.vacation.rental@gmail.com'; // Your Gmail address
-        $mail->Password = 'kylzdtyyggvrfmdt'; // Your app-specific password
+        $mail->Password = ''; // Your app-specific password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
